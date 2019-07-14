@@ -1,0 +1,12 @@
+D:\Czar.Cms-master\src\Czar.Cms.Quartz\bin\Release\netcoreapp2.2\Czar.Cms.Quartz.deps.json
+D:\Czar.Cms-master\src\Czar.Cms.Quartz\bin\Release\netcoreapp2.2\Czar.Cms.Quartz.dll
+D:\Czar.Cms-master\src\Czar.Cms.Quartz\bin\Release\netcoreapp2.2\Czar.Cms.Quartz.pdb
+D:\Czar.Cms-master\src\Czar.Cms.Quartz\bin\Release\netcoreapp2.2\Czar.Cms.ViewModels.dll
+D:\Czar.Cms-master\src\Czar.Cms.Quartz\bin\Release\netcoreapp2.2\Czar.Cms.ViewModels.pdb
+D:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Release\netcoreapp2.2\Czar.Cms.Quartz.csprojAssemblyReference.cache
+D:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Release\netcoreapp2.2\Czar.Cms.Quartz.csproj.CoreCompileInputs.cache
+D:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Release\netcoreapp2.2\Czar.Cms.Quartz.AssemblyInfoInputs.cache
+D:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Release\netcoreapp2.2\Czar.Cms.Quartz.AssemblyInfo.cs
+D:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Release\netcoreapp2.2\Czar.Cms.Quartz.csproj.CopyComplete
+D:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Release\netcoreapp2.2\Czar.Cms.Quartz.dll
+D:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Release\netcoreapp2.2\Czar.Cms.Quartz.pdb

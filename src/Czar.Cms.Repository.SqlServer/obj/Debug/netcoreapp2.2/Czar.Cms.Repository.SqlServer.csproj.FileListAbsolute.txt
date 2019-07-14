@@ -1,0 +1,16 @@
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\bin\Debug\netcoreapp2.2\Czar.Cms.Repository.SqlServer.deps.json
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\bin\Debug\netcoreapp2.2\Czar.Cms.Repository.SqlServer.dll
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\bin\Debug\netcoreapp2.2\Czar.Cms.Repository.SqlServer.pdb
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\bin\Debug\netcoreapp2.2\Czar.Cms.Core.dll
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\bin\Debug\netcoreapp2.2\Czar.Cms.IRepository.dll
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\bin\Debug\netcoreapp2.2\Czar.Cms.Models.dll
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\bin\Debug\netcoreapp2.2\Czar.Cms.Core.pdb
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\bin\Debug\netcoreapp2.2\Czar.Cms.IRepository.pdb
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\bin\Debug\netcoreapp2.2\Czar.Cms.Models.pdb
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\obj\Debug\netcoreapp2.2\Czar.Cms.Repository.SqlServer.csprojAssemblyReference.cache
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\obj\Debug\netcoreapp2.2\Czar.Cms.Repository.SqlServer.csproj.CoreCompileInputs.cache
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\obj\Debug\netcoreapp2.2\Czar.Cms.Repository.SqlServer.AssemblyInfoInputs.cache
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\obj\Debug\netcoreapp2.2\Czar.Cms.Repository.SqlServer.AssemblyInfo.cs
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\obj\Debug\netcoreapp2.2\Czar.Cms.Repository.SqlServer.csproj.CopyComplete
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\obj\Debug\netcoreapp2.2\Czar.Cms.Repository.SqlServer.dll
+D:\Czar.Cms-master\src\Czar.Cms.Repository.SqlServer\obj\Debug\netcoreapp2.2\Czar.Cms.Repository.SqlServer.pdb

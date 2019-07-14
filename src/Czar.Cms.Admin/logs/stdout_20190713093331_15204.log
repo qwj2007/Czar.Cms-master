@@ -1,0 +1,528 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\齐文杰\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Czar.Cms.Admin.Controllers.HomeController (Czar.Cms.Admin).
+Hosting environment: Development
+Content root path: D:\Czar.Cms-master\src\Czar.Cms.Admin
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[2]
+      Authorization failed.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+info: Microsoft.AspNetCore.Mvc.ChallengeResult[1]
+      Executing ChallengeResult with authentication schemes ().
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[12]
+      AuthenticationScheme: Cookies was challenged.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin) in 27.5626ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Account/Index?ReturnUrl=%2F  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 166.6884ms 302 
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Czar.Cms.Admin.Controllers.AccountController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.537ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 140.5446ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin) in 13071.0963ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 13109.5572ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/js/login.js?_=20190713173410  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Account/GetCaptchaImage  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetCaptchaImage", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCaptchaImage() on controller Czar.Cms.Admin.Controllers.AccountController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/login.js'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\js\login.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3696.0203ms 200 application/javascript
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.FileStreamResult in 123.9592ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.FileStreamResultExecutor[2]
+      Executing Microsoft.AspNetCore.Mvc.FileStreamResult, sending file with download name '' ...
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin) in 3817.1448ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Session.DistributedSession[3]
+      Session started; Key:92872553-b4ba-680b-0997-f8f8a050fc60, Id:3407d223-2847-e099-3a76-0d1618585fc1
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3835.9545ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:58935/Account/SignIn/ application/x-www-form-urlencoded; charset=UTF-8 229
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "SignInAsync", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SignInAsync(Czar.Cms.ViewModels.LoginModel) on controller Czar.Cms.Admin.Controllers.AccountController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: Cookies signed in.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2115.3468ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin) in 18699.7773ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 18725.0371ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Czar.Cms.Admin.Controllers.HomeController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3595ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 25.3861ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin) in 906.9479ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 918.5976ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/js/index.js?_=20190713173444  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/js/cache.js?_=20190713173444  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/upload/20190312/201903122159059093173.jpg  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Home/Main/  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 12.0473ms 404 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Main", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Main() on controller Czar.Cms.Admin.Controllers.HomeController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.0121ms.
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/cache.js'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\js\cache.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/index.js'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\js\index.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 856.2889ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 852.9074ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Home/GetMenu/  
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Main.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetMenu", controller = "Home"}. Executing controller action with signature System.String GetMenu() on controller Czar.Cms.Admin.Controllers.HomeController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Main executed in 868.4546ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin) in 1684.733ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1717.5682ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 52.3247ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin) in 888.1962ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 900.9143ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Manager/Index  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.ManagerController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Manager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Czar.Cms.Admin.Controllers.ManagerController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.ManagerController.Index (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.ManagerController.Index (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 900.1941ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 515.0004ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.ManagerController.Index (Czar.Cms.Admin) in 38169.2285ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.ManagerController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/js/manager/managerList.js?_=20190713173527  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/manager/managerList.js'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\js\manager\managerList.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 609.1709ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Manager/LoadData/?page=1&limit=10  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.ManagerController.LoadData (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "LoadData", controller = "Manager"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] LoadData(Czar.Cms.ViewModels.ManagerRequestModel) on controller Czar.Cms.Admin.Controllers.ManagerController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 43876.1995ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.ManagerController.LoadData (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/images/alipay.jpg  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/images/wechat.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/images/wechat.png'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\images\wechat.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 7.0445ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/images/alipay.jpg'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\images\alipay.jpg'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 41.6722ms 200 image/jpeg
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.ManagerController.LoadData (Czar.Cms.Admin) in 108054.0461ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.ManagerController.LoadData (Czar.Cms.Admin)'
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (2): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NLog.Targets.DatabaseTarget.OpenConnection(String connectionString)
+   at NLog.Targets.DatabaseTarget.EnsureConnectionOpen(String connectionString)
+   at NLog.Targets.DatabaseTarget.WriteEventToDatabase(LogEventInfo logEvent)
+   at NLog.Targets.DatabaseTarget.Write(LogEventInfo logEvent)
+   at NLog.Targets.Target.Write(AsyncLogEventInfo logEvent)
+   at NLog.Targets.Target.WriteAsyncThreadSafe(AsyncLogEventInfo logEvent)
+   at NLog.Targets.Target.WriteAsyncLogEvent(AsyncLogEventInfo logEvent)
+   at NLog.LoggerImpl.WriteToTargetWithFilterChain(Target target, FilterResult result, LogEventInfo logEvent, AsyncContinuation onException)
+   at NLog.LoggerImpl.Write(Type loggerType, TargetWithFilterChain targets, LogEventInfo logEvent, LogFactory factory)
+   at NLog.Logger.Error[T](T value)
+   at Czar.Cms.Admin.Filter.GlobalExceptionFilter.OnException(ExceptionContext filterContext) in D:\Czar.Cms-master\src\Czar.Cms.Admin\Filter\GlobalExceptionFilter.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 109316.4001ms 500 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/ManagerRole/Index  
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+      Cookies was not authenticated. Failure message: Ticket expired
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.ManagerRoleController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "ManagerRole"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Czar.Cms.Admin.Controllers.ManagerRoleController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[2]
+      Authorization failed.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+info: Microsoft.AspNetCore.Mvc.ChallengeResult[1]
+      Executing ChallengeResult with authentication schemes ().
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[12]
+      AuthenticationScheme: Cookies was challenged.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.ManagerRoleController.Index (Czar.Cms.Admin) in 7.8802ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.ManagerRoleController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 28.8477ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Account/Index?ReturnUrl=%2FManagerRole%2FIndex  
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+      Cookies was not authenticated. Failure message: Ticket expired
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Czar.Cms.Admin.Controllers.AccountController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.042ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 3.6169ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin) in 4643.6518ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4659.3583ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/js/login.js?_=20190713181512  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Account/GetCaptchaImage  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/login.js'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\js\login.js'
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+      Cookies was not authenticated. Failure message: Ticket expired
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 15.5648ms 200 application/javascript
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetCaptchaImage", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCaptchaImage() on controller Czar.Cms.Admin.Controllers.AccountController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Session.DistributedSession[2]
+      Accessing expired session, Key:92872553-b4ba-680b-0997-f8f8a050fc60
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.FileStreamResult in 5.0073ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.FileStreamResultExecutor[2]
+      Executing Microsoft.AspNetCore.Mvc.FileStreamResult, sending file with download name '' ...
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin) in 4477.6102ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Session.DistributedSession[3]
+      Session started; Key:92872553-b4ba-680b-0997-f8f8a050fc60, Id:0d66b483-5b0a-3b96-c420-e5cbcd737311
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4506.4961ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/  
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+      Cookies was not authenticated. Failure message: Ticket expired
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Czar.Cms.Admin.Controllers.HomeController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[2]
+      Authorization failed.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+info: Microsoft.AspNetCore.Mvc.ChallengeResult[1]
+      Executing ChallengeResult with authentication schemes ().
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[12]
+      AuthenticationScheme: Cookies was challenged.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin) in 6.6707ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 19.5845ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Account/Index?ReturnUrl=%2F  
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+      Cookies was not authenticated. Failure message: Ticket expired
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Czar.Cms.Admin.Controllers.AccountController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0153ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 2.0076ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin) in 8.0918ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 20.5579ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Account/GetCaptchaImage  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/js/login.js?_=20190713181526  
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+      Cookies was not authenticated. Failure message: Ticket expired
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/login.js'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\js\login.js'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetCaptchaImage", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCaptchaImage() on controller Czar.Cms.Admin.Controllers.AccountController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 13.7938ms 200 application/javascript
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.FileStreamResult in 2.5912ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.FileStreamResultExecutor[2]
+      Executing Microsoft.AspNetCore.Mvc.FileStreamResult, sending file with download name '' ...
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin) in 16.8487ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.AccountController.GetCaptchaImage (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 38.1468ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:58935/Account/SignIn/ application/x-www-form-urlencoded; charset=UTF-8 229
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[7]
+      Cookies was not authenticated. Failure message: Ticket expired
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "SignInAsync", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SignInAsync(Czar.Cms.ViewModels.LoginModel) on controller Czar.Cms.Admin.Controllers.AccountController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: Cookies signed in.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4752.0224ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin) in 4760.6439ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4773.7966ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Czar.Cms.Admin.Controllers.HomeController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0398ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 3.0833ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin) in 13.8649ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 27.3516ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/js/index.js?_=20190713181539  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/js/cache.js?_=20190713181539  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Home/Main/  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/upload/20190312/201903122159059093173.jpg  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/index.js'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\js\index.js'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 30.4827ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/cache.js'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\js\cache.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 23.4564ms 404 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Main", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Main() on controller Czar.Cms.Admin.Controllers.HomeController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 46.5391ms 200 application/javascript
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0682ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Main.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Main executed in 4.03ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin) in 23.7698ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 63.4823ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Home/GetMenu/  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetMenu", controller = "Home"}. Executing controller action with signature System.String GetMenu() on controller Czar.Cms.Admin.Controllers.HomeController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.1358ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin) in 13.6368ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 25.4765ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Manager/Index  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.ManagerController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Manager"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Czar.Cms.Admin.Controllers.ManagerController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.ManagerController.Index (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.ManagerController.Index (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 984.1672ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.

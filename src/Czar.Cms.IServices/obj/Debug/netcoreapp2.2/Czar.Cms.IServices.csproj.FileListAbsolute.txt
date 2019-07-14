@@ -1,0 +1,14 @@
+D:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Debug\netcoreapp2.2\Czar.Cms.IServices.deps.json
+D:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Debug\netcoreapp2.2\Czar.Cms.IServices.dll
+D:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Debug\netcoreapp2.2\Czar.Cms.IServices.pdb
+D:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Debug\netcoreapp2.2\Czar.Cms.Models.dll
+D:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Debug\netcoreapp2.2\Czar.Cms.ViewModels.dll
+D:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Debug\netcoreapp2.2\Czar.Cms.Models.pdb
+D:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Debug\netcoreapp2.2\Czar.Cms.ViewModels.pdb
+D:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Debug\netcoreapp2.2\Czar.Cms.IServices.csprojAssemblyReference.cache
+D:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Debug\netcoreapp2.2\Czar.Cms.IServices.csproj.CoreCompileInputs.cache
+D:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Debug\netcoreapp2.2\Czar.Cms.IServices.AssemblyInfoInputs.cache
+D:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Debug\netcoreapp2.2\Czar.Cms.IServices.AssemblyInfo.cs
+D:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Debug\netcoreapp2.2\Czar.Cms.IServices.csproj.CopyComplete
+D:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Debug\netcoreapp2.2\Czar.Cms.IServices.dll
+D:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Debug\netcoreapp2.2\Czar.Cms.IServices.pdb

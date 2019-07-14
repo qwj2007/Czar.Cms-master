@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Czar.Cms-master\\src\\Czar.Cms.Test\\Czar.Cms.Test.csproj": {}
+  },
+  "projects": {
+    "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj",
+        "projectName": "Czar.Cms.Core",
+        "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj",
+        "packagesPath": "C:\\Users\\齐文杰\\.nuget\\packages\\",
+        "outputPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\齐文杰\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.50.5, )"
+            },
+            "Dapper.SimpleCRUD": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.0.4, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Czar.Cms-master\\src\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Czar.Cms-master\\src\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj",
+        "projectName": "Czar.Cms.IRepository",
+        "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj",
+        "packagesPath": "C:\\Users\\齐文杰\\.nuget\\packages\\",
+        "outputPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\齐文杰\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj": {
+                "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj"
+              },
+              "D:\\Czar.Cms-master\\src\\Czar.Cms.Models\\Czar.Cms.Models.csproj": {
+                "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Models\\Czar.Cms.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Czar.Cms-master\\src\\Czar.Cms.Models\\Czar.Cms.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Czar.Cms-master\\src\\Czar.Cms.Models\\Czar.Cms.Models.csproj",
+        "projectName": "Czar.Cms.Models",
+        "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Models\\Czar.Cms.Models.csproj",
+        "packagesPath": "C:\\Users\\齐文杰\\.nuget\\packages\\",
+        "outputPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\齐文杰\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Czar.Cms-master\\src\\Czar.Cms.Repository.SqlServer\\Czar.Cms.Repository.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Czar.Cms-master\\src\\Czar.Cms.Repository.SqlServer\\Czar.Cms.Repository.SqlServer.csproj",
+        "projectName": "Czar.Cms.Repository.SqlServer",
+        "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Repository.SqlServer\\Czar.Cms.Repository.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\齐文杰\\.nuget\\packages\\",
+        "outputPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Repository.SqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\齐文杰\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj": {
+                "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj"
+              },
+              "D:\\Czar.Cms-master\\src\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj": {
+                "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Czar.Cms-master\\src\\Czar.Cms.Test\\Czar.Cms.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Czar.Cms-master\\src\\Czar.Cms.Test\\Czar.Cms.Test.csproj",
+        "projectName": "Czar.Cms.Test",
+        "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Test\\Czar.Cms.Test.csproj",
+        "packagesPath": "C:\\Users\\齐文杰\\.nuget\\packages\\",
+        "outputPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\齐文杰\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj": {
+                "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj"
+              },
+              "D:\\Czar.Cms-master\\src\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj": {
+                "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj"
+              },
+              "D:\\Czar.Cms-master\\src\\Czar.Cms.Repository.SqlServer\\Czar.Cms.Repository.SqlServer.csproj": {
+                "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Repository.SqlServer\\Czar.Cms.Repository.SqlServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

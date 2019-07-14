@@ -1,0 +1,9 @@
+D:\Czar.Cms-master\src\Czar.Cms.Core\bin\Debug\netcoreapp2.2\Czar.Cms.Core.deps.json
+D:\Czar.Cms-master\src\Czar.Cms.Core\bin\Debug\netcoreapp2.2\Czar.Cms.Core.dll
+D:\Czar.Cms-master\src\Czar.Cms.Core\bin\Debug\netcoreapp2.2\Czar.Cms.Core.pdb
+D:\Czar.Cms-master\src\Czar.Cms.Core\obj\Debug\netcoreapp2.2\Czar.Cms.Core.csproj.CoreCompileInputs.cache
+D:\Czar.Cms-master\src\Czar.Cms.Core\obj\Debug\netcoreapp2.2\Czar.Cms.Core.AssemblyInfoInputs.cache
+D:\Czar.Cms-master\src\Czar.Cms.Core\obj\Debug\netcoreapp2.2\Czar.Cms.Core.AssemblyInfo.cs
+D:\Czar.Cms-master\src\Czar.Cms.Core\obj\Debug\netcoreapp2.2\Czar.Cms.Core.dll
+D:\Czar.Cms-master\src\Czar.Cms.Core\obj\Debug\netcoreapp2.2\Czar.Cms.Core.pdb
+D:\Czar.Cms-master\src\Czar.Cms.Core\obj\Debug\netcoreapp2.2\Czar.Cms.Core.csprojAssemblyReference.cache
