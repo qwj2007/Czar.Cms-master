@@ -30,26 +30,24 @@ namespace Czar.Cms.Core.Repository
     {
         protected DbOption _dbOption;
         protected IDbConnection _dbConnection;
+        protected IDbTransaction _dbTransaction;
         //protected string configName;
 
-        public BaseRepository(IOptionsSnapshot<DbOption> options, string dbConfig = DBConfig.MysqlCon)
+        public BaseRepository(IOptionsSnapshot<DbOption> options, string dbConfig = DBConfig.MysqlCon, IDbTransaction _dbTransaction = null)
         {
             if (_dbOption == null)
             {
-                _dbOption = options.Get(dbConfig);
-                //if (!string.IsNullOrEmpty(configName))
-                //{
-                //    _dbOption = options.Get(configName);
-                //}
-                //else
-                //{
-                //    _dbOption = options.Get(dbConfig);
-                //}
+                _dbOption = options.Get(dbConfig);               
             }
 
             if (_dbConnection == null)
             {
                 _dbConnection = ConnectionFactory.CreateConnection(_dbOption.DbType, _dbOption.ConnectionString);
+                if(_dbTransaction==null)
+                {
+                    _dbTransaction = _dbConnection.BeginTransaction();
+                }
+               
             }
 
         }

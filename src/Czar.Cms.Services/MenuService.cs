@@ -29,7 +29,7 @@ namespace Czar.Cms.Services
     {
         private readonly IMenuRepository _repository;
         private readonly IMapper _mapper;
-
+      
         public MenuService(IMenuRepository repository, IMapper mapper)
         {
             _repository = repository;

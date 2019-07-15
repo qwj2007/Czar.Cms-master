@@ -98,6 +98,7 @@ namespace Czar.Cms.Services
 
         public async Task<BaseResult> DeleteIdsAsync(int[] Ids)
         {
+          
             var result = new BaseResult();
             if (Ids.Count() == 0)
             {
@@ -120,8 +121,6 @@ namespace Czar.Cms.Services
                     result.ResultCode = ResultCodeAddMsgKeys.CommonExceptionCode;
                     result.ResultMsg = ResultCodeAddMsgKeys.CommonExceptionMsg;
                 }
-
-
             }
             return result;
         }

@@ -23,7 +23,7 @@ using System.Threading.Tasks;
 
 namespace Czar.Cms.Repository.SqlServer
 {
-    public class ArticleCategoryRepository:BaseRepository<ArticleCategory,Int32>, IArticleCategoryRepository
+    public class ArticleCategoryRepository : BaseRepository<ArticleCategory, Int32>, IArticleCategoryRepository
     {
         public ArticleCategoryRepository(IOptionsSnapshot<DbOption> options):base(options,DBConfig.MysqlCon)
         {

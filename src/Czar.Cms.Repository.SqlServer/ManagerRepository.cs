@@ -27,6 +27,7 @@ namespace Czar.Cms.Repository.SqlServer
     {
         public ManagerRepository(IOptionsSnapshot<DbOption> options):base(options, DBConfig.MysqlCon)
         {
+            
             //this.configName = Czar.Cms.Core.Models.DBConfig.MysqlCon;
             //_dbOption = options.Get("MysqlCon");
             //if (_dbOption == null)
@@ -34,6 +35,7 @@ namespace Czar.Cms.Repository.SqlServer
             //    throw new ArgumentNullException(nameof(DbOption));
             //}
             //_dbConnection = ConnectionFactory.CreateConnection(_dbOption.DbType, _dbOption.ConnectionString);
+            
         }
         
         public int ChangeLockStatusById(int id, bool status)
@@ -43,7 +45,8 @@ namespace Czar.Cms.Repository.SqlServer
             {
                 IsLock = status ? 1 : 0,
                 Id = id,
-            }); 
+            });
+            
         }
 
         public async Task<int> ChangeLockStatusByIdAsync(int id, bool status)
@@ -71,7 +74,8 @@ namespace Czar.Cms.Repository.SqlServer
             return await _dbConnection.ExecuteAsync(sql, new
             {
                 Ids = ids
-            });
+            },this._dbTransaction);
+           
         }
 
         public bool GetLockStatusById(int id)

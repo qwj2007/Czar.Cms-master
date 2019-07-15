@@ -21,7 +21,7 @@ namespace Czar.Cms.ViewModels
         /// <summary>
         /// Aes加密关键字
         /// </summary>
-        public static readonly string AesEncryptKeys = "yilezhu";
-        public static readonly string DefaultPassword = "czarcms123456";
+        public static readonly string AesEncryptKeys = "qiwj";
+        public static readonly string DefaultPassword = "123456";
     }
 }
