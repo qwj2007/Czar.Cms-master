@@ -39,6 +39,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Czar.Cms.Models
 {
+    [Table("managerlog")]
 	/// <summary>
 	/// yilezhu
 	/// 2019-03-07 16:50:56

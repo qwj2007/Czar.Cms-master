@@ -26,7 +26,7 @@ namespace Czar.Cms.Repository.SqlServer
 {
     public class RolePermissionRepository:BaseRepository<RolePermission,Int32>, IRolePermissionRepository
     {
-        public RolePermissionRepository(IOptionsSnapshot<DbOption> options):base(options, DBConfig.MysqlCon)
+        public RolePermissionRepository(IOptionsSnapshot<DbOption> options):base(options)
         {
             //this.configName = Czar.Cms.Core.Models.DBConfig.MysqlCon;
             //_dbOption = options.Get("MysqlCon");

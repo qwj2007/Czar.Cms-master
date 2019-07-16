@@ -26,7 +26,7 @@ namespace Czar.Cms.Repository.SqlServer
 {
     public class MenuRepository : BaseRepository<Menu, Int32>, IMenuRepository
     {
-        public MenuRepository(IOptionsSnapshot<DbOption> options) : base(options, DBConfig.MysqlCon)
+        public MenuRepository(IOptionsSnapshot<DbOption> options) : base(options)
         {
            // base.configName = Czar.Cms.Core.Models.DBConfig.MysqlCon;
             //_dbOption = options.Get("MysqlCon");

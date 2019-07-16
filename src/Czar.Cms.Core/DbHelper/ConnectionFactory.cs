@@ -49,19 +49,19 @@ namespace Czar.Cms.Core.DbHelper
             switch (dbType)
             {
                 case DatabaseType.SqlServer:
-                    //设置sqlserver
-                    SimpleCRUD.SetDialect(SimpleCRUD.Dialect.SQLServer);
+                    //设置sqlserver                    
                     connection = new SqlConnection(strConn);
+                    SimpleCRUD.SetDialect(SimpleCRUD.Dialect.SQLServer);
                     break;
                 case DatabaseType.MySQL:
-                    //设置mysql
-                    SimpleCRUD.SetDialect(SimpleCRUD.Dialect.MySQL);
+                    //设置mysql                   
                     connection = new MySqlConnection(strConn);
+                    SimpleCRUD.SetDialect(SimpleCRUD.Dialect.MySQL);
                     break;
                 case DatabaseType.PostgreSQL:
-                    //设置PostgreSQL
-                    SimpleCRUD.SetDialect(SimpleCRUD.Dialect.PostgreSQL);
+                    //设置PostgreSQL                    
                     connection = new NpgsqlConnection(strConn);
+                    SimpleCRUD.SetDialect(SimpleCRUD.Dialect.PostgreSQL);
                     break;
                 default:
                     throw new ArgumentNullException($"这是我的错，还不支持的{dbType.ToString()}数据库类型");

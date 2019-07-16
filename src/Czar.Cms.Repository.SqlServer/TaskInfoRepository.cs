@@ -50,7 +50,7 @@ namespace Czar.Cms.Repository.SqlServer
 {
     public class TaskInfoRepository : BaseRepository<TaskInfo, Int32>, ITaskInfoRepository
     {
-        public TaskInfoRepository(IOptionsSnapshot<DbOption> options) : base(options, DBConfig.MysqlCon)
+        public TaskInfoRepository(IOptionsSnapshot<DbOption> options) : base(options)
         {
             //this.configName = Czar.Cms.Core.Models.DBConfig.MysqlCon;
             //_dbOption = options.Get("MysqlCon");

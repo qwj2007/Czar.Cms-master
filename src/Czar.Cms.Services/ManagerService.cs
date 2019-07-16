@@ -33,7 +33,7 @@ namespace Czar.Cms.Services
         private readonly IMapper _mapper;
         private readonly IManagerLogRepository _managerLogRepository;
 
-        public ManagerService(IManagerRepository repository, IManagerRoleRepository roleRepository, 
+        public ManagerService(IManagerRepository repository, IManagerRoleRepository roleRepository,
             IMapper mapper, IManagerLogRepository managerLogRepository)
         {
             _repository = repository;
@@ -44,7 +44,7 @@ namespace Czar.Cms.Services
 
         public async Task<BaseResult> AddOrModifyAsync(ManagerAddOrModifyModel item)
         {
-            
+
             var result = new BaseResult();
             Manager manager;
             if (item.Id == 0)
@@ -56,7 +56,8 @@ namespace Czar.Cms.Services
                 manager.AddManagerId = 1;
                 manager.IsDelete = false;
                 manager.AddTime = DateTime.Now;
-                if ( await _repository.InsertAsync(manager) > 0)
+                int? isresult = await _repository.InsertAsync(manager);
+                if (isresult > 0)
                 {
                     result.ResultCode = ResultCodeAddMsgKeys.CommonObjectSuccessCode;
                     result.ResultMsg = ResultCodeAddMsgKeys.CommonObjectSuccessMsg;
@@ -98,7 +99,7 @@ namespace Czar.Cms.Services
 
         public async Task<BaseResult> DeleteIdsAsync(int[] Ids)
         {
-          
+
             var result = new BaseResult();
             if (Ids.Count() == 0)
             {
@@ -131,8 +132,8 @@ namespace Czar.Cms.Services
             if (!model.Key.IsNullOrWhiteSpace())
             {
                 conditions += $"and (UserName like '%@Key%' or NickName like '%@Key%' or Remark like '%@Key%' or Mobile like '%@Key%' or Email like '%@Key%')";
-            }            
-            var data = await _repository.GetListPagedAsync(model.Page, model.Limit, conditions,"id desc",model);
+            }
+            var data = await _repository.GetListPagedAsync(model.Page, model.Limit, conditions, "id desc", model);
             var list = data.ToList();
             var viewList = new List<ManagerListModel>();
             list?.ForEach(x =>
@@ -193,7 +194,7 @@ namespace Czar.Cms.Services
                 manager.LoginCount += 1;
                 manager.LoginLastTime = DateTime.Now;
                 _repository.Update(manager);
-                await _managerLogRepository.InsertAsync(new ManagerLog()
+                int? i = await _managerLogRepository.InsertAsync(new ManagerLog()
                 {
                     ActionType = CzarCmsEnums.ActionEnum.SignIn.ToString(),
                     AddManageId = manager.Id,

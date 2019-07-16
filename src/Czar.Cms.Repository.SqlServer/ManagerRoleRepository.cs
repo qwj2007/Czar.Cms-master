@@ -27,7 +27,7 @@ namespace Czar.Cms.Repository.SqlServer
 {
     public class ManagerRoleRepository : BaseRepository<ManagerRole, Int32>, IManagerRoleRepository
     {
-        public ManagerRoleRepository(IOptionsSnapshot<DbOption> options) : base(options, DBConfig.MysqlCon)
+        public ManagerRoleRepository(IOptionsSnapshot<DbOption> options) : base(options)
         {
             //this.configName = Czar.Cms.Core.Models.DBConfig.MysqlCon;
             //_dbOption = options.Get("MysqlCon");

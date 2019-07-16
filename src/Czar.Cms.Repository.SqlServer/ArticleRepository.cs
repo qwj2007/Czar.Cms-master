@@ -25,7 +25,7 @@ namespace Czar.Cms.Repository.SqlServer
 {
     public class ArticleRepository : BaseRepository<Article, Int32>, IArticleRepository
     {
-        public ArticleRepository(IOptionsSnapshot<DbOption> options) : base(options, DBConfig.MysqlCon)
+        public ArticleRepository(IOptionsSnapshot<DbOption> options) : base(options)
         {
             
             //_dbOption = options.Get("MysqlCon");

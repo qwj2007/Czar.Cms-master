@@ -25,7 +25,7 @@ namespace Czar.Cms.Repository.SqlServer
 {
     public class ManagerLogRepository:BaseRepository<ManagerLog,Int32>, IManagerLogRepository
     {
-        public ManagerLogRepository(IOptionsSnapshot<DbOption> options):base(options, DBConfig.MysqlCon)
+        public ManagerLogRepository(IOptionsSnapshot<DbOption> options):base(options)
         {
             //this.configName = Czar.Cms.Core.Models.DBConfig.MysqlCon;
             //_dbOption = options.Get("MysqlCon");

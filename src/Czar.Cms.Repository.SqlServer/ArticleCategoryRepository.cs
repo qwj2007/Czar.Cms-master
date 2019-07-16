@@ -25,7 +25,7 @@ namespace Czar.Cms.Repository.SqlServer
 {
     public class ArticleCategoryRepository : BaseRepository<ArticleCategory, Int32>, IArticleCategoryRepository
     {
-        public ArticleCategoryRepository(IOptionsSnapshot<DbOption> options):base(options,DBConfig.MysqlCon)
+        public ArticleCategoryRepository(IOptionsSnapshot<DbOption> options):base(options)
         {
             //this.configName = Czar.Cms.Core.Models.DBConfig.MysqlCon;            
         }

@@ -120,39 +120,39 @@ namespace Czar.Cms.Admin
             }
             try
             {
-                var jobInfoAppService = app.ApplicationServices.GetRequiredService<ITaskInfoService>();
-                var scheduleCenter = app.ApplicationServices.GetRequiredService<ScheduleCenter>();
-                applicationLifetime.ApplicationStarted.Register(async () =>
-                {
-                    var list = await jobInfoAppService.GetListByJobStatuAsync((int)TaskInfoStatus.SystemStopped);
-                    if (list?.Count() > 0)
-                    {
-                        list.ForEach(async x =>
-                        {
-                            await scheduleCenter.AddJobAsync(x.Name,
-                                                    x.Group,
-                                                    x.ClassName,
-                                                    x.Assembly,
-                                                    x.Cron);
-                        });
-                        await jobInfoAppService.ResumeSystemStoppedAsync();
-                    }
+                //var jobInfoAppService = app.ApplicationServices.GetRequiredService<ITaskInfoService>();
+                //var scheduleCenter = app.ApplicationServices.GetRequiredService<ScheduleCenter>();
+                //applicationLifetime.ApplicationStarted.Register(async () =>
+                //{
+                //    var list = await jobInfoAppService.GetListByJobStatuAsync((int)TaskInfoStatus.SystemStopped);
+                //    if (list?.Count() > 0)
+                //    {
+                //        list.ForEach(async x =>
+                //        {
+                //            await scheduleCenter.AddJobAsync(x.Name,
+                //                                    x.Group,
+                //                                    x.ClassName,
+                //                                    x.Assembly,
+                //                                    x.Cron);
+                //        });
+                //        await jobInfoAppService.ResumeSystemStoppedAsync();
+                //    }
 
-                });
-                applicationLifetime.ApplicationStopping.Register(async () =>
-                {
-                    var list = await jobInfoAppService.GetListByJobStatuAsync((int)TaskInfoStatus.Running);
-                    if (list?.Count() > 0)
-                    {
-                        await jobInfoAppService.SystemStoppedAsync();
-                        list.ForEach(async x =>
-                        {
-                            await scheduleCenter.DeleteJobAsync(x.Name, x.Group);
-                        });
-                    }
+                //});
+                //applicationLifetime.ApplicationStopping.Register(async () =>
+                //{
+                //    var list = await jobInfoAppService.GetListByJobStatuAsync((int)TaskInfoStatus.Running);
+                //    if (list?.Count() > 0)
+                //    {
+                //        await jobInfoAppService.SystemStoppedAsync();
+                //        list.ForEach(async x =>
+                //        {
+                //            await scheduleCenter.DeleteJobAsync(x.Name, x.Group);
+                //        });
+                //    }
 
 
-                });
+                //});
             }
             catch (Exception ex)
             {

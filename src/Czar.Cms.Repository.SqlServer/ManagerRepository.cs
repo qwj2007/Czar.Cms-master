@@ -25,7 +25,7 @@ namespace Czar.Cms.Repository.SqlServer
 {
     public class ManagerRepository : BaseRepository<Manager, Int32>, IManagerRepository
     {
-        public ManagerRepository(IOptionsSnapshot<DbOption> options):base(options, DBConfig.MysqlCon)
+        public ManagerRepository(IOptionsSnapshot<DbOption> options):base(options)
         {
             
             //this.configName = Czar.Cms.Core.Models.DBConfig.MysqlCon;
