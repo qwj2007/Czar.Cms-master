@@ -1,0 +1,243 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\ÆëÎÄ½Ü\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Czar.Cms.Admin.Controllers.HomeController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[2]
+      Authorization failed.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+info: Microsoft.AspNetCore.Mvc.ChallengeResult[1]
+      Executing ChallengeResult with authentication schemes ().
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[12]
+      AuthenticationScheme: Cookies was challenged.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin) in 41.8895ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Account/Index?ReturnUrl=%2F  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 248.332ms 302 
+Hosting environment: Development
+Content root path: D:\Czar.Cms-master\src\Czar.Cms.Admin
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Czar.Cms.Admin.Controllers.AccountController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5324ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 116.7155ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin) in 636.7239ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.AccountController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 677.4905ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/js/login.js?_=20190803182126  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/css/public.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/layui/css/layui.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/images/userface1.jpg  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/layui/layui.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /images/userface1.jpg was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /layui/css/layui.css was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /layui/layui.js was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /css/public.css was not modified
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 41.2598ms 304 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 17.846ms 304 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 22.6144ms 304 image/jpeg
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 44.1292ms 304 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/login.js'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\js\login.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 69.946ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/images/login_bg.jpg  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /images/login_bg.jpg was not modified
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.7446ms 304 image/jpeg
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/layui/lay/modules/form.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /layui/lay/modules/form.js was not modified
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.1656ms 304 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/layui/lay/modules/layer.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /layui/lay/modules/layer.js was not modified
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 7.7306ms 304 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/layui/css/modules/layer/default/layer.css?v=3.1.1  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/layui/lay/modules/jquery.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /layui/css/modules/layer/default/layer.css was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /layui/lay/modules/jquery.js was not modified
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 14.6835ms 304 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 11.7799ms 304 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/favicon.ico  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\favicon.ico'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 17.8085ms 200 image/x-icon
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:58935/Account/SignIn/ application/x-www-form-urlencoded; charset=UTF-8 209
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "SignInAsync", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] SignInAsync(Czar.Cms.ViewModels.LoginModel) on controller Czar.Cms.Admin.Controllers.AccountController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: Cookies signed in.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5938.7249ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin) in 7226.073ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.AccountController.SignInAsync (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Session.DistributedSession[3]
+      Session started; Key:8b7807d8-c19e-ecdc-35df-8634ceccd0b7, Id:805bf327-4f26-7faa-3769-44f2bb6a69c1
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 7268.4854ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/  
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Czar.Cms.Admin.Controllers.HomeController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.69ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 33.4882ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin) in 80.1598ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.HomeController.Index (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 97.371ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/css/index.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/js/cache.js?_=20190803182139  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/upload/20190312/201903122159059093173.jpg  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Home/Main/  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /css/index.css was not modified
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/js/index.js?_=20190803182139  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 19.4594ms 304 text/css
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 27.5023ms 404 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Main", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Main() on controller Czar.Cms.Admin.Controllers.HomeController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/cache.js'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\js\cache.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 48.5148ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/index.js'. Physical path: 'D:\Czar.Cms-master\src\Czar.Cms.Admin\wwwroot\js\index.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 38.8079ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/layui/font/iconfont.woff?v=220  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/js/bodyTab.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /layui/font/iconfont.woff was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /js/bodyTab.js was not modified
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 15.2342ms 304 application/font-woff
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 18.5326ms 304 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/layui/lay/modules/element.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /layui/lay/modules/element.js was not modified
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 12.4108ms 304 application/javascript
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ViewResult in 15.7741ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Main.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/Home/GetMenu/  
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Main executed in 56.2659ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin) in 142.5453ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.HomeController.Main (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 188.903ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:58935/js/main.js  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetMenu", controller = "Home"}. Executing controller action with signature System.String GetMenu() on controller Czar.Cms.Admin.Controllers.HomeController (Czar.Cms.Admin).
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /js/main.js was not modified
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 12.3852ms 304 application/javascript
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 86.9091ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin) in 140.5275ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Czar.Cms.Admin.Controllers.HomeController.GetMenu (Czar.Cms.Admin)'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 181.3493ms 200 text/plain; charset=utf-8
