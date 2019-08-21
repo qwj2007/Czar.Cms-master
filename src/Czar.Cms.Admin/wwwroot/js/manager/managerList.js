@@ -132,7 +132,7 @@ layui.use(['form', 'layer', 'table', 'laytpl'], function () {
         });
     });
 
-    function del(managerId) {
+    function del(managerId) {        
         $.ajax({
             type: 'POST',
             url: '/Manager/Delete/',

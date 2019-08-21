@@ -10,9 +10,9 @@ D:\Czar.Cms-master\src\Czar.Cms.Job\obj\Release\netcoreapp2.2\Czar.Cms.Job.pdb
 E:\Czar.Cms-master\src\Czar.Cms.Job\bin\Release\netcoreapp2.2\Czar.Cms.Job.deps.json
 E:\Czar.Cms-master\src\Czar.Cms.Job\bin\Release\netcoreapp2.2\Czar.Cms.Job.dll
 E:\Czar.Cms-master\src\Czar.Cms.Job\bin\Release\netcoreapp2.2\Czar.Cms.Job.pdb
-E:\Czar.Cms-master\src\Czar.Cms.Job\obj\Release\netcoreapp2.2\Czar.Cms.Job.csprojAssemblyReference.cache
 E:\Czar.Cms-master\src\Czar.Cms.Job\obj\Release\netcoreapp2.2\Czar.Cms.Job.csproj.CoreCompileInputs.cache
 E:\Czar.Cms-master\src\Czar.Cms.Job\obj\Release\netcoreapp2.2\Czar.Cms.Job.AssemblyInfoInputs.cache
 E:\Czar.Cms-master\src\Czar.Cms.Job\obj\Release\netcoreapp2.2\Czar.Cms.Job.AssemblyInfo.cs
 E:\Czar.Cms-master\src\Czar.Cms.Job\obj\Release\netcoreapp2.2\Czar.Cms.Job.dll
 E:\Czar.Cms-master\src\Czar.Cms.Job\obj\Release\netcoreapp2.2\Czar.Cms.Job.pdb
+E:\Czar.Cms-master\src\Czar.Cms.Job\obj\Release\netcoreapp2.2\Czar.Cms.Job.csprojAssemblyReference.cache

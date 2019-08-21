@@ -5,7 +5,6 @@ E:\Czar.Cms-master\src\Czar.Cms.Site\bin\Release\netcoreapp2.2\Czar.Cms.Site.dll
 E:\Czar.Cms-master\src\Czar.Cms.Site\bin\Release\netcoreapp2.2\Czar.Cms.Site.pdb
 E:\Czar.Cms-master\src\Czar.Cms.Site\bin\Release\netcoreapp2.2\Czar.Cms.Site.Views.dll
 E:\Czar.Cms-master\src\Czar.Cms.Site\bin\Release\netcoreapp2.2\Czar.Cms.Site.Views.pdb
-E:\Czar.Cms-master\src\Czar.Cms.Site\obj\Release\netcoreapp2.2\Czar.Cms.Site.csprojAssemblyReference.cache
 E:\Czar.Cms-master\src\Czar.Cms.Site\obj\Release\netcoreapp2.2\Czar.Cms.Site.csproj.CoreCompileInputs.cache
 E:\Czar.Cms-master\src\Czar.Cms.Site\obj\Release\netcoreapp2.2\Czar.Cms.Site.RazorAssemblyInfo.cache
 E:\Czar.Cms-master\src\Czar.Cms.Site\obj\Release\netcoreapp2.2\Czar.Cms.Site.RazorAssemblyInfo.cs
@@ -28,3 +27,4 @@ E:\Czar.Cms-master\src\Czar.Cms.Site\obj\Release\netcoreapp2.2\Czar.Cms.Site.Vie
 E:\Czar.Cms-master\src\Czar.Cms.Site\obj\Release\netcoreapp2.2\Czar.Cms.Site.dll
 E:\Czar.Cms-master\src\Czar.Cms.Site\obj\Release\netcoreapp2.2\Czar.Cms.Site.pdb
 E:\Czar.Cms-master\src\Czar.Cms.Site\obj\Release\netcoreapp2.2\Czar.Cms.Site.csproj.CopyComplete
+E:\Czar.Cms-master\src\Czar.Cms.Site\obj\Release\netcoreapp2.2\Czar.Cms.Site.csprojAssemblyReference.cache

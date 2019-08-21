@@ -10,7 +10,6 @@ D:\Czar.Cms-master\src\Czar.Cms.ViewModels\obj\Release\netcoreapp2.2\Czar.Cms.Vi
 E:\Czar.Cms-master\src\Czar.Cms.ViewModels\bin\Release\netcoreapp2.2\Czar.Cms.ViewModels.deps.json
 E:\Czar.Cms-master\src\Czar.Cms.ViewModels\bin\Release\netcoreapp2.2\Czar.Cms.ViewModels.dll
 E:\Czar.Cms-master\src\Czar.Cms.ViewModels\bin\Release\netcoreapp2.2\Czar.Cms.ViewModels.pdb
-E:\Czar.Cms-master\src\Czar.Cms.ViewModels\obj\Release\netcoreapp2.2\Czar.Cms.ViewModels.csprojAssemblyReference.cache
 E:\Czar.Cms-master\src\Czar.Cms.ViewModels\obj\Release\netcoreapp2.2\Czar.Cms.ViewModels.csproj.CoreCompileInputs.cache
 E:\Czar.Cms-master\src\Czar.Cms.ViewModels\obj\Release\netcoreapp2.2\Czar.Cms.ViewModels.AssemblyInfoInputs.cache
 E:\Czar.Cms-master\src\Czar.Cms.ViewModels\obj\Release\netcoreapp2.2\Czar.Cms.ViewModels.AssemblyInfo.cs

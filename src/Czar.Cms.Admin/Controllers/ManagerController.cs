@@ -75,9 +75,9 @@ namespace Czar.Cms.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public string Delete(int[] roleId)
+        public string Delete(int[] managerId)
         {
-            return JsonHelper.ObjectToJSON(_service.DeleteIdsAsync(roleId));
+            return JsonHelper.ObjectToJSON(_service.DeleteIdsAsync(managerId));
         }
 
         [HttpPost]
