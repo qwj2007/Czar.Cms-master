@@ -1,15 +1,4 @@
-﻿/**
-*┌──────────────────────────────────────────────────────────────┐
-*│　描    述：仓储类的基类                                                    
-*│　作    者：yilezhu                                             
-*│　版    本：1.0                                                 
-*│　创建时间：2018/12/16 12:03:02                             
-*└──────────────────────────────────────────────────────────────┘
-*┌──────────────────────────────────────────────────────────────┐
-*│　命名空间： Czar.Cms.Core.Repository                                   
-*│　类    名： BaseRepository                                      
-*└──────────────────────────────────────────────────────────────┘
-*/
+﻿
 using Czar.Cms.Core.DbHelper;
 using Czar.Cms.Core.Options;
 using System;
@@ -71,12 +60,12 @@ namespace Czar.Cms.Core.Repository
         {
             return _dbConnection.GetListPaged<T>(pageNumber, rowsPerPage, conditions, orderby, parameters);
         }
-        public int? Insert(T entity) => _dbConnection.Insert(entity);
-        public int Update(T entity) => _dbConnection.Update(entity);
+        public int? Insert(T entity, IDbTransaction transaction = null, int? commandTimeout = null) => _dbConnection.Insert(entity,transaction,commandTimeout);
+        public int Update(T entity, IDbTransaction transaction = null, int? commandTimeout = null) => _dbConnection.Update(entity,transaction,commandTimeout);
 
-        public int Delete(TKey id) => _dbConnection.Delete<T>(id);
+        public int Delete(TKey id, IDbTransaction transaction = null, int? commandTimeout = null) => _dbConnection.Delete<T>(id,transaction,commandTimeout);
 
-        public int Delete(T entity) => _dbConnection.Delete(entity);
+        public int Delete(T entity, IDbTransaction transaction = null, int? commandTimeout = null) => _dbConnection.Delete(entity,transaction,commandTimeout);
         public int DeleteList(object whereConditions, IDbTransaction transaction = null, int? commandTimeout = null)
         {
             return _dbConnection.DeleteList<T>(whereConditions, transaction, commandTimeout);
@@ -119,22 +108,22 @@ namespace Czar.Cms.Core.Repository
         {
             return _dbConnection.GetListPagedAsync<T>(pageNumber, rowsPerPage, conditions, orderby, parameters);
         }
-        public Task<int?> InsertAsync(T entity)
+        public Task<int?> InsertAsync(T entity, IDbTransaction transaction = null, int? commandTimeout = null)
         {
-            return _dbConnection.InsertAsync(entity);
+            return _dbConnection.InsertAsync(entity,transaction,commandTimeout);
         }
-        public Task<int> UpdateAsync(T entity)
+        public Task<int> UpdateAsync(T entity, IDbTransaction transaction = null, int? commandTimeout = null)
         {
-            return _dbConnection.UpdateAsync(entity);
+            return _dbConnection.UpdateAsync(entity,transaction,commandTimeout);
         }
-        public Task<int> DeleteAsync(TKey id)
+        public Task<int> DeleteAsync(TKey id, IDbTransaction transaction = null, int? commandTimeout = null)
         {
-            return _dbConnection.DeleteAsync<T>(id);
+            return _dbConnection.DeleteAsync<T>(id,transaction,commandTimeout);
         }
 
-        public Task<int> DeleteAsync(T entity)
+        public Task<int> DeleteAsync(T entity, IDbTransaction transaction = null, int? commandTimeout = null)
         {
-            return _dbConnection.DeleteAsync<T>(entity);
+            return _dbConnection.DeleteAsync<T>(entity,transaction,commandTimeout);
         }
 
 

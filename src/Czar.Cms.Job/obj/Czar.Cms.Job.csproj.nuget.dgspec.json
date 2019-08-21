@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Czar.Cms-master\\src\\Czar.Cms.Job\\Czar.Cms.Job.csproj": {}
+    "E:\\Czar.Cms-master\\src\\Czar.Cms.Job\\Czar.Cms.Job.csproj": {}
   },
   "projects": {
-    "D:\\Czar.Cms-master\\src\\Czar.Cms.Job\\Czar.Cms.Job.csproj": {
+    "E:\\Czar.Cms-master\\src\\Czar.Cms.Job\\Czar.Cms.Job.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Czar.Cms-master\\src\\Czar.Cms.Job\\Czar.Cms.Job.csproj",
+        "projectUniqueName": "E:\\Czar.Cms-master\\src\\Czar.Cms.Job\\Czar.Cms.Job.csproj",
         "projectName": "Czar.Cms.Job",
-        "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Job\\Czar.Cms.Job.csproj",
-        "packagesPath": "C:\\Users\\齐文杰\\.nuget\\packages\\",
-        "outputPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Job\\obj\\",
+        "projectPath": "E:\\Czar.Cms-master\\src\\Czar.Cms.Job\\Czar.Cms.Job.csproj",
+        "packagesPath": "C:\\Users\\qiwj\\.nuget\\packages\\",
+        "outputPath": "E:\\Czar.Cms-master\\src\\Czar.Cms.Job\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\齐文杰\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\qiwj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

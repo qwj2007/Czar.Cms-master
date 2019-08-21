@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Czar.Cms-master\\src\\Czar.Cms.Site\\Czar.Cms.Site.csproj": {}
+    "E:\\Czar.Cms-master\\src\\Czar.Cms.Site\\Czar.Cms.Site.csproj": {}
   },
   "projects": {
-    "D:\\Czar.Cms-master\\src\\Czar.Cms.Site\\Czar.Cms.Site.csproj": {
+    "E:\\Czar.Cms-master\\src\\Czar.Cms.Site\\Czar.Cms.Site.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Czar.Cms-master\\src\\Czar.Cms.Site\\Czar.Cms.Site.csproj",
+        "projectUniqueName": "E:\\Czar.Cms-master\\src\\Czar.Cms.Site\\Czar.Cms.Site.csproj",
         "projectName": "Czar.Cms.Site",
-        "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Site\\Czar.Cms.Site.csproj",
-        "packagesPath": "C:\\Users\\齐文杰\\.nuget\\packages\\",
-        "outputPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Site\\obj\\",
+        "projectPath": "E:\\Czar.Cms-master\\src\\Czar.Cms.Site\\Czar.Cms.Site.csproj",
+        "packagesPath": "C:\\Users\\qiwj\\.nuget\\packages\\",
+        "outputPath": "E:\\Czar.Cms-master\\src\\Czar.Cms.Site\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\齐文杰\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\qiwj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

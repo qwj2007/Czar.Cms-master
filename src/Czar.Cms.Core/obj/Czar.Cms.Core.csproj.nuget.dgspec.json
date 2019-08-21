@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj": {}
+    "E:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj": {}
   },
   "projects": {
-    "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj": {
+    "E:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj",
+        "projectUniqueName": "E:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj",
         "projectName": "Czar.Cms.Core",
-        "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj",
-        "packagesPath": "C:\\Users\\齐文杰\\.nuget\\packages\\",
-        "outputPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.Core\\obj\\",
+        "projectPath": "E:\\Czar.Cms-master\\src\\Czar.Cms.Core\\Czar.Cms.Core.csproj",
+        "packagesPath": "C:\\Users\\qiwj\\.nuget\\packages\\",
+        "outputPath": "E:\\Czar.Cms-master\\src\\Czar.Cms.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\齐文杰\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\qiwj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,7 +43,7 @@
           "dependencies": {
             "Dapper": {
               "target": "Package",
-              "version": "[1.50.5, )"
+              "version": "[1.60.6, )"
             },
             "Dapper.SimpleCRUD": {
               "target": "Package",
@@ -69,15 +69,19 @@
             },
             "MySql.Data": {
               "target": "Package",
-              "version": "[8.0.16, )"
+              "version": "[8.0.17, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[12.0.2, )"
             },
             "Npgsql": {
               "target": "Package",
-              "version": "[4.0.4, )"
+              "version": "[4.0.9, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[2.19.31, )"
             },
             "System.Drawing.Common": {
               "target": "Package",

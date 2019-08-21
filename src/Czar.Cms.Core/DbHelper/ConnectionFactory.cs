@@ -63,8 +63,11 @@ namespace Czar.Cms.Core.DbHelper
                     connection = new NpgsqlConnection(strConn);
                     SimpleCRUD.SetDialect(SimpleCRUD.Dialect.PostgreSQL);
                     break;
+                //case DatabaseType.Oracle:
+                //    connection = new Oracle.ManagedDataAccess.Client.OracleConnection();                   
+                    //break;
                 default:
-                    throw new ArgumentNullException($"这是我的错，还不支持的{dbType.ToString()}数据库类型");
+                    throw new ArgumentNullException($"还不支持的{dbType.ToString()}数据库类型");
 
             }
             if (connection.State == ConnectionState.Closed)

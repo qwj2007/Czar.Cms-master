@@ -12,3 +12,17 @@ D:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Release\netcoreapp2.2\Czar.Cms.ISe
 D:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Release\netcoreapp2.2\Czar.Cms.IServices.csproj.CopyComplete
 D:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Release\netcoreapp2.2\Czar.Cms.IServices.dll
 D:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Release\netcoreapp2.2\Czar.Cms.IServices.pdb
+E:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Release\netcoreapp2.2\Czar.Cms.IServices.deps.json
+E:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Release\netcoreapp2.2\Czar.Cms.IServices.dll
+E:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Release\netcoreapp2.2\Czar.Cms.IServices.pdb
+E:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Release\netcoreapp2.2\Czar.Cms.Models.dll
+E:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Release\netcoreapp2.2\Czar.Cms.ViewModels.dll
+E:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Release\netcoreapp2.2\Czar.Cms.Models.pdb
+E:\Czar.Cms-master\src\Czar.Cms.IServices\bin\Release\netcoreapp2.2\Czar.Cms.ViewModels.pdb
+E:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Release\netcoreapp2.2\Czar.Cms.IServices.csprojAssemblyReference.cache
+E:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Release\netcoreapp2.2\Czar.Cms.IServices.csproj.CoreCompileInputs.cache
+E:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Release\netcoreapp2.2\Czar.Cms.IServices.AssemblyInfoInputs.cache
+E:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Release\netcoreapp2.2\Czar.Cms.IServices.AssemblyInfo.cs
+E:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Release\netcoreapp2.2\Czar.Cms.IServices.csproj.CopyComplete
+E:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Release\netcoreapp2.2\Czar.Cms.IServices.dll
+E:\Czar.Cms-master\src\Czar.Cms.IServices\obj\Release\netcoreapp2.2\Czar.Cms.IServices.pdb

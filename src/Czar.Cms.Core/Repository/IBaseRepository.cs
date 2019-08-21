@@ -68,25 +68,25 @@ namespace Czar.Cms.Core.Repository
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        int? Insert(T entity);
+        int? Insert(T entity, IDbTransaction transaction = null, int? commandTimeout = null);
         /// <summary>
         /// 更新一条数据并返回影响的行数
         /// </summary>
         /// <param name="entity"></param>
         /// <returns>影响的行数</returns>
-        int Update(T entity);
+        int Update(T entity, IDbTransaction transaction = null, int? commandTimeout = null);
         /// <summary>
         /// 根据实体主键删除一条数据
         /// </summary>
         /// <param name="id">主键</param>
         /// <returns>影响的行数</returns>
-        int Delete(TKey id);
+        int Delete(TKey id, IDbTransaction transaction = null, int? commandTimeout = null);
         /// <summary>
         /// 根据实体删除一条数据
         /// </summary>
         /// <param name="entity">实体</param>
         /// <returns>返回影响的行数</returns>
-        int Delete(T entity);
+        int Delete(T entity, IDbTransaction transaction = null, int? commandTimeout = null);
         /// <summary>
         /// 条件删除多条记录
         /// </summary>
@@ -159,25 +159,25 @@ namespace Czar.Cms.Core.Repository
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        Task<int?> InsertAsync(T entity);
+        Task<int?> InsertAsync(T entity, IDbTransaction transaction = null, int? commandTimeout = null);
         /// <summary>
         /// 更新一条数据并返回影响的行数
         /// </summary>
         /// <param name="entity"></param>
         /// <returns>影响的行数</returns>
-        Task<int> UpdateAsync(T entity);
+        Task<int> UpdateAsync(T entity, IDbTransaction transaction = null, int? commandTimeout = null);
         /// <summary>
         /// 根据实体主键删除一条数据
         /// </summary>
         /// <param name="id">主键</param>
         /// <returns>影响的行数</returns>
-        Task<int> DeleteAsync(TKey id);
+        Task<int> DeleteAsync(TKey id, IDbTransaction transaction = null, int? commandTimeout = null);
         /// <summary>
         /// 根据实体删除一条数据
         /// </summary>
         /// <param name="entity">实体</param>
         /// <returns>返回影响的行数</returns>
-        Task<int> DeleteAsync(T entity);
+        Task<int> DeleteAsync(T entity, IDbTransaction transaction = null, int? commandTimeout = null);
         /// <summary>
         /// 条件删除多条记录
         /// </summary>

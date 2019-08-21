@@ -552,7 +552,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "Cc1km8SsIG0bxk5OWUpjowTbA5ZYBj7g1AK/yjHuHi5F8C36v3E6j+Xop/lYnkmzFDDm5Wac//yJdGTqEMBqkA==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\齐文杰\\.nuget\\packages\\": {},
+    "C:\\Users\\qiwj\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Czar.Cms-master\\src\\Czar.Cms.ViewModels\\Czar.Cms.ViewModels.csproj",
+      "projectUniqueName": "E:\\Czar.Cms-master\\src\\Czar.Cms.ViewModels\\Czar.Cms.ViewModels.csproj",
       "projectName": "Czar.Cms.ViewModels",
-      "projectPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.ViewModels\\Czar.Cms.ViewModels.csproj",
-      "packagesPath": "C:\\Users\\齐文杰\\.nuget\\packages\\",
-      "outputPath": "D:\\Czar.Cms-master\\src\\Czar.Cms.ViewModels\\obj\\",
+      "projectPath": "E:\\Czar.Cms-master\\src\\Czar.Cms.ViewModels\\Czar.Cms.ViewModels.csproj",
+      "packagesPath": "C:\\Users\\qiwj\\.nuget\\packages\\",
+      "outputPath": "E:\\Czar.Cms-master\\src\\Czar.Cms.ViewModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\齐文杰\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\qiwj\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -12,3 +12,17 @@ D:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Release\netcoreapp2.2\Czar.Cms.I
 D:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Release\netcoreapp2.2\Czar.Cms.IRepository.csproj.CopyComplete
 D:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Release\netcoreapp2.2\Czar.Cms.IRepository.dll
 D:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Release\netcoreapp2.2\Czar.Cms.IRepository.pdb
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\bin\Release\netcoreapp2.2\Czar.Cms.IRepository.deps.json
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\bin\Release\netcoreapp2.2\Czar.Cms.IRepository.dll
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\bin\Release\netcoreapp2.2\Czar.Cms.IRepository.pdb
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\bin\Release\netcoreapp2.2\Czar.Cms.Core.dll
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\bin\Release\netcoreapp2.2\Czar.Cms.Models.dll
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\bin\Release\netcoreapp2.2\Czar.Cms.Core.pdb
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\bin\Release\netcoreapp2.2\Czar.Cms.Models.pdb
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Release\netcoreapp2.2\Czar.Cms.IRepository.csprojAssemblyReference.cache
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Release\netcoreapp2.2\Czar.Cms.IRepository.csproj.CoreCompileInputs.cache
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Release\netcoreapp2.2\Czar.Cms.IRepository.AssemblyInfoInputs.cache
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Release\netcoreapp2.2\Czar.Cms.IRepository.AssemblyInfo.cs
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Release\netcoreapp2.2\Czar.Cms.IRepository.csproj.CopyComplete
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Release\netcoreapp2.2\Czar.Cms.IRepository.dll
+E:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Release\netcoreapp2.2\Czar.Cms.IRepository.pdb
