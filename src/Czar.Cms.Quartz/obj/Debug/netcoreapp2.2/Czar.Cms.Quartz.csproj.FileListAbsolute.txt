@@ -10,3 +10,15 @@ D:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Debug\netcoreapp2.2\Czar.Cms.Quartz.A
 D:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Debug\netcoreapp2.2\Czar.Cms.Quartz.csproj.CopyComplete
 D:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Debug\netcoreapp2.2\Czar.Cms.Quartz.dll
 D:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Debug\netcoreapp2.2\Czar.Cms.Quartz.pdb
+E:\Czar.Cms-master\src\Czar.Cms.Quartz\bin\Debug\netcoreapp2.2\Czar.Cms.Quartz.deps.json
+E:\Czar.Cms-master\src\Czar.Cms.Quartz\bin\Debug\netcoreapp2.2\Czar.Cms.Quartz.dll
+E:\Czar.Cms-master\src\Czar.Cms.Quartz\bin\Debug\netcoreapp2.2\Czar.Cms.Quartz.pdb
+E:\Czar.Cms-master\src\Czar.Cms.Quartz\bin\Debug\netcoreapp2.2\Czar.Cms.ViewModels.dll
+E:\Czar.Cms-master\src\Czar.Cms.Quartz\bin\Debug\netcoreapp2.2\Czar.Cms.ViewModels.pdb
+E:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Debug\netcoreapp2.2\Czar.Cms.Quartz.csprojAssemblyReference.cache
+E:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Debug\netcoreapp2.2\Czar.Cms.Quartz.csproj.CoreCompileInputs.cache
+E:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Debug\netcoreapp2.2\Czar.Cms.Quartz.AssemblyInfoInputs.cache
+E:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Debug\netcoreapp2.2\Czar.Cms.Quartz.AssemblyInfo.cs
+E:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Debug\netcoreapp2.2\Czar.Cms.Quartz.csproj.CopyComplete
+E:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Debug\netcoreapp2.2\Czar.Cms.Quartz.dll
+E:\Czar.Cms-master\src\Czar.Cms.Quartz\obj\Debug\netcoreapp2.2\Czar.Cms.Quartz.pdb

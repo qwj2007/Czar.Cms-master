@@ -35,9 +35,9 @@ namespace Czar.Cms.Test
             var services = new ServiceCollection();
             services.Configure<CodeGenerateOption>(options =>
             {
-                options.ConnectionString = "Data Source=.;Initial Catalog=CzarCms;User ID=sa;Password=1;Persist Security Info=True;Max Pool Size=50;Min Pool Size=0;Connection Lifetime=300;";
+                options.ConnectionString = "Data Source=.;Initial Catalog=test;User ID=sa;Password=1qaz2wsx~;Persist Security Info=True;Max Pool Size=50;Min Pool Size=0;Connection Lifetime=300;";
                 options.DbType = DatabaseType.SqlServer.ToString();//数据库类型是SqlServer,其他数据类型参照枚举DatabaseType
-                options.Author = "yilezhu";//作者名称
+                options.Author = "齐文杰";//作者名称
                 options.OutputPath = "C:\\CzarCmsCodeGenerator";//模板代码生成的路径
                 options.ModelsNamespace = "Czar.Cms.Models";//实体命名空间
                 options.IRepositoryNamespace = "Czar.Cms.IRepository";//仓储接口命名空间

@@ -6,3 +6,11 @@ D:\Czar.Cms-master\src\Czar.Cms.Models\obj\Debug\netcoreapp2.2\Czar.Cms.Models.A
 D:\Czar.Cms-master\src\Czar.Cms.Models\obj\Debug\netcoreapp2.2\Czar.Cms.Models.AssemblyInfo.cs
 D:\Czar.Cms-master\src\Czar.Cms.Models\obj\Debug\netcoreapp2.2\Czar.Cms.Models.dll
 D:\Czar.Cms-master\src\Czar.Cms.Models\obj\Debug\netcoreapp2.2\Czar.Cms.Models.pdb
+E:\Czar.Cms-master\src\Czar.Cms.Models\bin\Debug\netcoreapp2.2\Czar.Cms.Models.deps.json
+E:\Czar.Cms-master\src\Czar.Cms.Models\bin\Debug\netcoreapp2.2\Czar.Cms.Models.dll
+E:\Czar.Cms-master\src\Czar.Cms.Models\bin\Debug\netcoreapp2.2\Czar.Cms.Models.pdb
+E:\Czar.Cms-master\src\Czar.Cms.Models\obj\Debug\netcoreapp2.2\Czar.Cms.Models.csproj.CoreCompileInputs.cache
+E:\Czar.Cms-master\src\Czar.Cms.Models\obj\Debug\netcoreapp2.2\Czar.Cms.Models.AssemblyInfoInputs.cache
+E:\Czar.Cms-master\src\Czar.Cms.Models\obj\Debug\netcoreapp2.2\Czar.Cms.Models.AssemblyInfo.cs
+E:\Czar.Cms-master\src\Czar.Cms.Models\obj\Debug\netcoreapp2.2\Czar.Cms.Models.dll
+E:\Czar.Cms-master\src\Czar.Cms.Models\obj\Debug\netcoreapp2.2\Czar.Cms.Models.pdb

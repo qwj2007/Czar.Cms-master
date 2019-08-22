@@ -47,14 +47,14 @@ namespace {RepositoryNamespace}
 {
     public class {ModelName}Repository:BaseRepository<{ModelName},{KeyTypeName}>, I{ModelName}Repository
     {
-        public {ModelName}Repository(IOptionsSnapshot<DbOption> options)
+        public {ModelName}Repository(IOptionsSnapshot<DbOption> options):base(options)
         {
-            _dbOption =options.Get("CzarCms");
-            if (_dbOption == null)
-            {
-                throw new ArgumentNullException(nameof(DbOption));
-            }
-            _dbConnection = ConnectionFactory.CreateConnection(_dbOption.DbType, _dbOption.ConnectionString);
+            //_dbOption =options.Get("CzarCms");
+           // if (_dbOption == null)
+            //{
+            //    throw new ArgumentNullException(nameof(DbOption));
+            //}
+           // _dbConnection = ConnectionFactory.CreateConnection(_dbOption.DbType, _dbOption.ConnectionString);
         }
 
 		public int DeleteLogical(int[] ids)

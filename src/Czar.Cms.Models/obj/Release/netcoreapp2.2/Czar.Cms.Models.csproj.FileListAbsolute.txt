@@ -15,3 +15,4 @@ E:\Czar.Cms-master\src\Czar.Cms.Models\obj\Release\netcoreapp2.2\Czar.Cms.Models
 E:\Czar.Cms-master\src\Czar.Cms.Models\obj\Release\netcoreapp2.2\Czar.Cms.Models.AssemblyInfo.cs
 E:\Czar.Cms-master\src\Czar.Cms.Models\obj\Release\netcoreapp2.2\Czar.Cms.Models.dll
 E:\Czar.Cms-master\src\Czar.Cms.Models\obj\Release\netcoreapp2.2\Czar.Cms.Models.pdb
+E:\Czar.Cms-master\src\Czar.Cms.Models\obj\Release\netcoreapp2.2\Czar.Cms.Models.csprojAssemblyReference.cache
