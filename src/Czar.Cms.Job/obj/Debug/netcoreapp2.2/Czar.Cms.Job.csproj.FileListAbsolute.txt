@@ -1,7 +1,6 @@
 D:\Czar.Cms-master\src\Czar.Cms.Job\bin\Debug\netcoreapp2.2\Czar.Cms.Job.deps.json
 D:\Czar.Cms-master\src\Czar.Cms.Job\bin\Debug\netcoreapp2.2\Czar.Cms.Job.dll
 D:\Czar.Cms-master\src\Czar.Cms.Job\bin\Debug\netcoreapp2.2\Czar.Cms.Job.pdb
-D:\Czar.Cms-master\src\Czar.Cms.Job\obj\Debug\netcoreapp2.2\Czar.Cms.Job.csproj.CoreCompileInputs.cache
 D:\Czar.Cms-master\src\Czar.Cms.Job\obj\Debug\netcoreapp2.2\Czar.Cms.Job.AssemblyInfoInputs.cache
 D:\Czar.Cms-master\src\Czar.Cms.Job\obj\Debug\netcoreapp2.2\Czar.Cms.Job.AssemblyInfo.cs
 D:\Czar.Cms-master\src\Czar.Cms.Job\obj\Debug\netcoreapp2.2\Czar.Cms.Job.dll

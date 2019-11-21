@@ -49,9 +49,10 @@ namespace Czar.Cms.Core.DbHelper
             switch (dbType)
             {
                 case DatabaseType.SqlServer:
+                    
                     //设置sqlserver                    
-                    connection = new SqlConnection(strConn);
-                    SimpleCRUD.SetDialect(SimpleCRUD.Dialect.SQLServer);
+                    //connection = new SqlConnection(strConn);
+                    //SimpleCRUD.SetDialect(SimpleCRUD.Dialect.SQLServer);
                     break;
                 case DatabaseType.MySQL:
                     //设置mysql                   

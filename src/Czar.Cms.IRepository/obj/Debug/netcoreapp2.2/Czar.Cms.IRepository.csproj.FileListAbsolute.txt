@@ -6,7 +6,6 @@ D:\Czar.Cms-master\src\Czar.Cms.IRepository\bin\Debug\netcoreapp2.2\Czar.Cms.Mod
 D:\Czar.Cms-master\src\Czar.Cms.IRepository\bin\Debug\netcoreapp2.2\Czar.Cms.Core.pdb
 D:\Czar.Cms-master\src\Czar.Cms.IRepository\bin\Debug\netcoreapp2.2\Czar.Cms.Models.pdb
 D:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Debug\netcoreapp2.2\Czar.Cms.IRepository.csprojAssemblyReference.cache
-D:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Debug\netcoreapp2.2\Czar.Cms.IRepository.csproj.CoreCompileInputs.cache
 D:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Debug\netcoreapp2.2\Czar.Cms.IRepository.AssemblyInfoInputs.cache
 D:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Debug\netcoreapp2.2\Czar.Cms.IRepository.AssemblyInfo.cs
 D:\Czar.Cms-master\src\Czar.Cms.IRepository\obj\Debug\netcoreapp2.2\Czar.Cms.IRepository.csproj.CopyComplete

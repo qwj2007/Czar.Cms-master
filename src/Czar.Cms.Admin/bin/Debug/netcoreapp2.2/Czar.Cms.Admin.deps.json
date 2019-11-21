@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "f310cf166d37b58bb75824caa1fb69a4ab053cbc"
+    "signature": ""
   },
   "compilationOptions": {
     "defines": [
@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP2_2"
     ],
-    "languageVersion": "",
+    "languageVersion": "7.3",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -127,25 +127,23 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
         }
       },
-      "Dapper/1.50.5": {
+      "Dapper/2.0.30": {
         "dependencies": {
-          "System.Data.SqlClient": "4.6.0",
-          "System.Reflection.Emit.Lightweight": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.5.0"
+          "System.Reflection.Emit.Lightweight": "4.6.0"
         },
         "runtime": {
           "lib/netstandard2.0/Dapper.dll": {
-            "assemblyVersion": "1.50.5.0",
-            "fileVersion": "1.50.5.0"
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.30.32292"
           }
         },
         "compile": {
           "lib/netstandard2.0/Dapper.dll": {}
         }
       },
-      "Dapper.SimpleCRUD/2.1.0": {
+      "Dapper.SimpleCRUD/2.2.0": {
         "dependencies": {
-          "Dapper": "1.50.5",
+          "Dapper": "2.0.30",
           "Microsoft.CSharp": "4.5.0"
         },
         "runtime": {
@@ -757,18 +755,9 @@
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
           "runtime.native.System": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
+      "System.Reflection.Emit.Lightweight/4.6.0": {},
       "System.Reflection.TypeExtensions/4.5.0": {},
       "System.Security.Cryptography.ProtectedData/4.5.0": {
         "runtime": {
@@ -789,8 +778,8 @@
       "System.ValueTuple/4.5.0": {},
       "Czar.Cms.Core/1.0.0": {
         "dependencies": {
-          "Dapper": "1.50.5",
-          "Dapper.SimpleCRUD": "2.1.0",
+          "Dapper": "2.0.30",
+          "Dapper.SimpleCRUD": "2.2.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Caching.Memory": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
@@ -3447,7 +3436,7 @@
           "System.Reflection": "4.3.0",
           "System.Reflection.Emit": "4.3.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0",
-          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.6.0",
           "System.Reflection.Extensions": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Reflection.TypeExtensions": "4.5.0",
@@ -3543,7 +3532,7 @@
           "System.Linq": "4.3.0",
           "System.Reflection": "4.3.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0",
-          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.6.0",
           "System.Reflection.Extensions": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Reflection.TypeExtensions": "4.5.0",
@@ -3586,15 +3575,6 @@
       "System.Reflection.Emit.ILGeneration/4.3.0": {
         "dependencies": {
           "System.Reflection": "4.3.0",
-          "System.Reflection.Primitives": "4.3.0",
-          "System.Runtime": "4.3.0"
-        },
-        "compileOnly": true
-      },
-      "System.Reflection.Emit.Lightweight/4.3.0": {
-        "dependencies": {
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
         },
@@ -4118,19 +4098,19 @@
       "path": "bouncycastle.netcore/1.8.3",
       "hashPath": "bouncycastle.netcore.1.8.3.nupkg.sha512"
     },
-    "Dapper/1.50.5": {
+    "Dapper/2.0.30": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1vPpX7WQmQCIb7rwlGOUoVs/yWZhVKvdhuG7WrJV+V+qsP8btnrrCqVWHENAlJxBAnUw5rhWfmuba9/Egei9MA==",
-      "path": "dapper/1.50.5",
-      "hashPath": "dapper.1.50.5.nupkg.sha512"
+      "sha512": "sha512-nL0VEpvunjIQ3jTI1x27b7BS3BnRnn5b2vhxsU2pWEd9SljF5WUQLoV/83qXTm0yaHmejRV/ndI3EApGlrgPqw==",
+      "path": "dapper/2.0.30",
+      "hashPath": "dapper.2.0.30.nupkg.sha512"
     },
-    "Dapper.SimpleCRUD/2.1.0": {
+    "Dapper.SimpleCRUD/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-h+ks84GXASH0JOZw2s0Tf8+VLEjcCq+FJRTxxn98BUNXmPprBapslNkVOPoNrlndtxa249+BpsXb63RcEFeHew==",
-      "path": "dapper.simplecrud/2.1.0",
-      "hashPath": "dapper.simplecrud.2.1.0.nupkg.sha512"
+      "sha512": "sha512-1vgKSAMuAa/hpWKlSeJ5fuGrYvxHqeBMXxvF/2auJbHF3nOVWKCYYJBJ+m/2UwB6P2xxFw/olAlFQZiPSiSgeA==",
+      "path": "dapper.simplecrud/2.2.0",
+      "hashPath": "dapper.simplecrud.2.2.0.nupkg.sha512"
     },
     "FluentValidation/8.1.2": {
       "type": "package",
@@ -4390,6 +4370,13 @@
       "sha512": "sha512-AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
       "path": "system.net.nameresolution/4.3.0",
       "hashPath": "system.net.nameresolution.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j/V5HVvxvBQ7uubYD0PptQW2KGsi1Pc2kZ9yfwLixv3ADdjL/4M78KyC5e+ymW612DY8ZE4PFoZmWpoNmN2mqg==",
+      "path": "system.reflection.emit.lightweight/4.6.0",
+      "hashPath": "system.reflection.emit.lightweight.4.6.0.nupkg.sha512"
     },
     "System.Reflection.TypeExtensions/4.5.0": {
       "type": "package",
@@ -6101,13 +6088,6 @@
       "sha512": "sha512-59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
-    },
-    "System.Reflection.Emit.Lightweight/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oadVHGSMsTmZsAF864QYN1t1QzZjIcuKU3l2S9cZOwDdDueNTrqq1yRj7koFfIGEnKpt6NjpL3rOzRhs4ryOgA==",
-      "path": "system.reflection.emit.lightweight/4.3.0",
-      "hashPath": "system.reflection.emit.lightweight.4.3.0.nupkg.sha512"
     },
     "System.Reflection.Extensions/4.3.0": {
       "type": "package",

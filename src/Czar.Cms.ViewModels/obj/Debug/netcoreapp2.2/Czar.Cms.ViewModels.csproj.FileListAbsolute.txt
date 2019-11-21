@@ -1,7 +1,6 @@
 D:\Czar.Cms-master\src\Czar.Cms.ViewModels\bin\Debug\netcoreapp2.2\Czar.Cms.ViewModels.deps.json
 D:\Czar.Cms-master\src\Czar.Cms.ViewModels\bin\Debug\netcoreapp2.2\Czar.Cms.ViewModels.dll
 D:\Czar.Cms-master\src\Czar.Cms.ViewModels\bin\Debug\netcoreapp2.2\Czar.Cms.ViewModels.pdb
-D:\Czar.Cms-master\src\Czar.Cms.ViewModels\obj\Debug\netcoreapp2.2\Czar.Cms.ViewModels.csproj.CoreCompileInputs.cache
 D:\Czar.Cms-master\src\Czar.Cms.ViewModels\obj\Debug\netcoreapp2.2\Czar.Cms.ViewModels.AssemblyInfoInputs.cache
 D:\Czar.Cms-master\src\Czar.Cms.ViewModels\obj\Debug\netcoreapp2.2\Czar.Cms.ViewModels.AssemblyInfo.cs
 D:\Czar.Cms-master\src\Czar.Cms.ViewModels\obj\Debug\netcoreapp2.2\Czar.Cms.ViewModels.dll

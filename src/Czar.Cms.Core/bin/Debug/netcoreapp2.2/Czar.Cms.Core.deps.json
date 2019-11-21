@@ -1,15 +1,15 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "8f49d5ef9b60da00fb316791bb85c3e0eaa84c49"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "Czar.Cms.Core/1.0.0": {
         "dependencies": {
-          "Dapper": "1.50.5",
-          "Dapper.SimpleCRUD": "2.1.0",
+          "Dapper": "2.0.30",
+          "Dapper.SimpleCRUD": "2.2.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Caching.Memory": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
@@ -25,7 +25,7 @@
       "BouncyCastle.NetCore/1.8.3": {
         "dependencies": {
           "System.Reflection": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.4.0"
+          "System.Reflection.TypeExtensions": "4.1.0"
         },
         "runtime": {
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
@@ -34,22 +34,20 @@
           }
         }
       },
-      "Dapper/1.50.5": {
+      "Dapper/2.0.30": {
         "dependencies": {
-          "System.Data.SqlClient": "4.4.0",
-          "System.Reflection.Emit.Lightweight": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.4.0"
+          "System.Reflection.Emit.Lightweight": "4.6.0"
         },
         "runtime": {
           "lib/netstandard2.0/Dapper.dll": {
-            "assemblyVersion": "1.50.5.0",
-            "fileVersion": "1.50.5.0"
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.30.32292"
           }
         }
       },
-      "Dapper.SimpleCRUD/2.1.0": {
+      "Dapper.SimpleCRUD/2.2.0": {
         "dependencies": {
-          "Dapper": "1.50.5",
+          "Dapper": "2.0.30",
           "Microsoft.CSharp": "4.4.0"
         },
         "runtime": {
@@ -148,22 +146,6 @@
           }
         }
       },
-      "Microsoft.Win32.Registry/4.4.0": {
-        "dependencies": {
-          "System.Security.AccessControl": "4.4.0",
-          "System.Security.Principal.Windows": "4.4.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
-        }
-      },
       "Microsoft.Win32.SystemEvents/4.5.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
@@ -216,40 +198,6 @@
           }
         }
       },
-      "runtime.native.System.Data.SqlClient.sni/4.4.0": {
-        "dependencies": {
-          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
-          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
-          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
-        }
-      },
-      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-        "runtimeTargets": {
-          "runtimes/win-arm64/native/sni.dll": {
-            "rid": "win-arm64",
-            "assetType": "native",
-            "fileVersion": "4.6.25512.1"
-          }
-        }
-      },
-      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-        "runtimeTargets": {
-          "runtimes/win-x64/native/sni.dll": {
-            "rid": "win-x64",
-            "assetType": "native",
-            "fileVersion": "4.6.25512.1"
-          }
-        }
-      },
-      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-        "runtimeTargets": {
-          "runtimes/win-x86/native/sni.dll": {
-            "rid": "win-x86",
-            "assetType": "native",
-            "fileVersion": "4.6.25512.1"
-          }
-        }
-      },
       "System.ComponentModel.Annotations/4.5.0": {},
       "System.Configuration.ConfigurationManager/4.4.1": {
         "dependencies": {
@@ -259,34 +207,6 @@
           "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.6.25921.2"
-          }
-        }
-      },
-      "System.Data.SqlClient/4.4.0": {
-        "dependencies": {
-          "Microsoft.Win32.Registry": "4.4.0",
-          "System.Security.Principal.Windows": "4.4.0",
-          "System.Text.Encoding.CodePages": "4.4.0",
-          "runtime.native.System.Data.SqlClient.sni": "4.4.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Data.SqlClient.dll": {
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.6.25519.3"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll": {
-            "rid": "unix",
-            "assetType": "runtime",
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.6.25519.3"
-          },
-          "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.6.25519.3"
           }
         }
       },
@@ -330,27 +250,18 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Reflection.Emit.ILGeneration/4.3.0": {
-        "dependencies": {
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Primitives": "4.3.0",
-          "System.Runtime": "4.3.0"
-        }
-      },
-      "System.Reflection.Emit.Lightweight/4.3.0": {
-        "dependencies": {
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit.ILGeneration": "4.3.0",
-          "System.Reflection.Primitives": "4.3.0",
-          "System.Runtime": "4.3.0"
-        }
-      },
+      "System.Reflection.Emit.Lightweight/4.6.0": {},
       "System.Reflection.Primitives/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Reflection.TypeExtensions/4.4.0": {},
+      "System.Reflection.TypeExtensions/4.1.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
       "System.Runtime/4.3.0": {},
       "System.Runtime.CompilerServices.Unsafe/4.5.1": {
         "runtime": {
@@ -363,16 +274,6 @@
       "System.Security.AccessControl/4.4.0": {
         "dependencies": {
           "System.Security.Principal.Windows": "4.4.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.Security.Cryptography.ProtectedData/4.4.0": {
@@ -402,18 +303,7 @@
           }
         }
       },
-      "System.Security.Principal.Windows/4.4.0": {
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
-        }
-      },
+      "System.Security.Principal.Windows/4.4.0": {},
       "System.Text.Encoding/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -465,19 +355,19 @@
       "path": "bouncycastle.netcore/1.8.3",
       "hashPath": "bouncycastle.netcore.1.8.3.nupkg.sha512"
     },
-    "Dapper/1.50.5": {
+    "Dapper/2.0.30": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1vPpX7WQmQCIb7rwlGOUoVs/yWZhVKvdhuG7WrJV+V+qsP8btnrrCqVWHENAlJxBAnUw5rhWfmuba9/Egei9MA==",
-      "path": "dapper/1.50.5",
-      "hashPath": "dapper.1.50.5.nupkg.sha512"
+      "sha512": "sha512-nL0VEpvunjIQ3jTI1x27b7BS3BnRnn5b2vhxsU2pWEd9SljF5WUQLoV/83qXTm0yaHmejRV/ndI3EApGlrgPqw==",
+      "path": "dapper/2.0.30",
+      "hashPath": "dapper.2.0.30.nupkg.sha512"
     },
-    "Dapper.SimpleCRUD/2.1.0": {
+    "Dapper.SimpleCRUD/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-h+ks84GXASH0JOZw2s0Tf8+VLEjcCq+FJRTxxn98BUNXmPprBapslNkVOPoNrlndtxa249+BpsXb63RcEFeHew==",
-      "path": "dapper.simplecrud/2.1.0",
-      "hashPath": "dapper.simplecrud.2.1.0.nupkg.sha512"
+      "sha512": "sha512-1vgKSAMuAa/hpWKlSeJ5fuGrYvxHqeBMXxvF/2auJbHF3nOVWKCYYJBJ+m/2UwB6P2xxFw/olAlFQZiPSiSgeA==",
+      "path": "dapper.simplecrud/2.2.0",
+      "hashPath": "dapper.simplecrud.2.2.0.nupkg.sha512"
     },
     "Google.Protobuf/3.6.1": {
       "type": "package",
@@ -542,13 +432,6 @@
       "path": "microsoft.extensions.primitives/2.2.0",
       "hashPath": "microsoft.extensions.primitives.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Win32.Registry/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-dA36TlNVn/XfrZtmf0fiI/z1nd3Wfp2QVzTdj26pqgP9LFWq0i1hYEUAW50xUjGFYn1+/cP3KGuxT2Yn1OUNBQ==",
-      "path": "microsoft.win32.registry/4.4.0",
-      "hashPath": "microsoft.win32.registry.4.4.0.nupkg.sha512"
-    },
     "Microsoft.Win32.SystemEvents/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -577,34 +460,6 @@
       "path": "npgsql/4.0.4",
       "hashPath": "npgsql.4.0.4.nupkg.sha512"
     },
-    "runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-A8v6PGmk+UGbfWo5Ixup0lPM4swuSwOiayJExZwKIOjTlFFQIsu3QnDXECosBEyrWSPryxBVrdqtJyhK3BaupQ==",
-      "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
-      "hashPath": "runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
-    },
-    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
-      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
-      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
-    },
-    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
-      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
-      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
-    },
-    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
-      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
-      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
-    },
     "System.ComponentModel.Annotations/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -618,13 +473,6 @@
       "sha512": "sha512-jz3TWKMAeuDEyrPCK5Jyt4bzQcmzUIMcY9Ud6PkElFxTfnsihV+9N/UCqvxe1z5gc7jMYAnj7V1COMS9QKIuHQ==",
       "path": "system.configuration.configurationmanager/4.4.1",
       "hashPath": "system.configuration.configurationmanager.4.4.1.nupkg.sha512"
-    },
-    "System.Data.SqlClient/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fxb9ghn1k1Ua7FFdlvtiBOD4/PsQvD/fk2KnhS+FK7VC6OggEx6P+lP1P0+KMb5V2dqS1+FbR7HCenoqzJMNIA==",
-      "path": "system.data.sqlclient/4.4.0",
-      "hashPath": "system.data.sqlclient.4.4.0.nupkg.sha512"
     },
     "System.Drawing.Common/4.5.1": {
       "type": "package",
@@ -654,19 +502,12 @@
       "path": "system.reflection/4.3.0",
       "hashPath": "system.reflection.4.3.0.nupkg.sha512"
     },
-    "System.Reflection.Emit.ILGeneration/4.3.0": {
+    "System.Reflection.Emit.Lightweight/4.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
-      "path": "system.reflection.emit.ilgeneration/4.3.0",
-      "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
-    },
-    "System.Reflection.Emit.Lightweight/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oadVHGSMsTmZsAF864QYN1t1QzZjIcuKU3l2S9cZOwDdDueNTrqq1yRj7koFfIGEnKpt6NjpL3rOzRhs4ryOgA==",
-      "path": "system.reflection.emit.lightweight/4.3.0",
-      "hashPath": "system.reflection.emit.lightweight.4.3.0.nupkg.sha512"
+      "sha512": "sha512-j/V5HVvxvBQ7uubYD0PptQW2KGsi1Pc2kZ9yfwLixv3ADdjL/4M78KyC5e+ymW612DY8ZE4PFoZmWpoNmN2mqg==",
+      "path": "system.reflection.emit.lightweight/4.6.0",
+      "hashPath": "system.reflection.emit.lightweight.4.6.0.nupkg.sha512"
     },
     "System.Reflection.Primitives/4.3.0": {
       "type": "package",
@@ -675,12 +516,12 @@
       "path": "system.reflection.primitives/4.3.0",
       "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
     },
-    "System.Reflection.TypeExtensions/4.4.0": {
+    "System.Reflection.TypeExtensions/4.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dkmh/ySlwnXJp/1qYP9uyKkCK1CXR/REFzl7abHcArxBcV91mY2CgrrzSRA5Z/X4MevJWwXsklGRdR3A7K9zbg==",
-      "path": "system.reflection.typeextensions/4.4.0",
-      "hashPath": "system.reflection.typeextensions.4.4.0.nupkg.sha512"
+      "sha512": "sha512-tsQ/ptQ3H5FYfON8lL4MxRk/8kFyE0A+tGPXmVP967cT/gzLHYxIejIYSxp4JmIeFHVP78g/F2FE1mUUTbDtrg==",
+      "path": "system.reflection.typeextensions/4.1.0",
+      "hashPath": "system.reflection.typeextensions.4.1.0.nupkg.sha512"
     },
     "System.Runtime/4.3.0": {
       "type": "package",
