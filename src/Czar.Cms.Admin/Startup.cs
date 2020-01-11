@@ -26,6 +26,7 @@ using Czar.Cms.Quartz;
 using Czar.Cms.ViewModels;
 using NLog;
 using Czar.Cms.Core.Repository;
+using Microsoft.Extensions.Options;
 
 namespace Czar.Cms.Admin
 {
@@ -43,8 +44,10 @@ namespace Czar.Cms.Admin
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            //在持久层根据name来获取数据库连接          
             services.Configure<DbOption>("CzarCms", Configuration.GetSection("DbOpion"));
-            services.Configure<DbOption>("MysqlCon", Configuration.GetSection("MySqlDbOption"));
+            services.Configure<DbOption>("MysqlCon", Configuration.GetSection("MySqlDbOption"));           
+            
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
